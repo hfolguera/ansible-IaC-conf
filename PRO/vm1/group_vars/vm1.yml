@@ -1,0 +1,5 @@
+---
+cluster: "cl01cpdp1"
+cluster_grid_version: "19c"
+
+databases:
