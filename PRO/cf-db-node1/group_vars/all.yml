@@ -1,0 +1,17 @@
+cluster:
+  cluster_name: "cl03cpdp1"
+  scan_host: "scanmerca01p"
+  scan_port: 1556
+  domain: "cc.mercadona.com"
+  location: "CPD"
+
+databases:
+  - { dbName: "merca01p",
+      db_home: "/u01/app/oracle/db/19.0.0.0/dbhome_1",
+      db_unique_name: "merca01p1", 
+      type: "RAC",
+      dataguard: true,
+      version: "19c",
+      size: "SMALL",
+      service_names: ["bat_pdesig_merca01.cc.mercadona.com","bat_pedido.cc.mercadona.com","dbs_pedido.cc.mercadona.com","bat_petisecs.cc.mercadona.com","dbs_petisecs.cc.mercadona.com", "bat_migsap_merca01.cc.mercadona.com", "bat_estan_merca01.cc.mercadona.com", "dbs_pedal.cc.mercadona.com", "bat_pedal.cc.mercadona.com", "dbs_pedes.cc.mercadona.com", "bat_pedes.cc.mercadona.com", "dbs_pedge.cc.mercadona.com", "bat_pedge.cc.mercadona.com", "dbs_pedmo.cc.mercadona.com", "bat_pedmo.cc.mercadona.com", "dbs_pedpv.cc.mercadona.com", "bat_pedpv.cc.mercadona.com", "dbs_pedti.cc.mercadona.com", "bat_pedti.cc.mercadona.com", "bat_sam.cc.mercadona.com", "dbs_sam42.cc.mercadona.com", "bat_sam42.cc.mercadona.com", "dbs_samcg.cc.mercadona.com", "bat_samcg.cc.mercadona.com", "dbs_samon.cc.mercadona.com", "bat_samon.cc.mercadona.com", "dbs_itf2.cc.mercadona.com", "bat_itf2.cc.mercadona.com", "dbs_placas.cc.mercadona.com", "bat_placas.cc.mercadona.com", "bat_fwcer_merca01.cc.mercadona.com", "bat_dmu_merca01.cc.mercadona.com", "dbs_tavmam.cc.mercadona.com", "dbs_ofi_merca01.cc.mercadona.com", "dbs_estan_merca01.cc.mercadona.com"]
+    }
